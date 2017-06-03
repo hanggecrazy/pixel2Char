@@ -59,7 +59,7 @@ class pixel2Char():
 if __name__ == "__main__":
     
     if len(sys.argv) < 2 :
-        print('please excute : python ' + sys.argv[0] + ' image_path')
+        print('please excute : python ' + sys.argv[0] + ' source.png')
         exit(0)
     
     image = sys.argv[1]
